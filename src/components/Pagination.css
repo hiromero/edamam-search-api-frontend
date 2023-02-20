@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    cursor: pointer;
+}
+
+.pagination a {
+    padding: 10px;
+    border: 1px solid #674747;
+    color: #674747;
+}
+
+.pagination__link {
+    font-weight: bold;
+}
+
+.pagination__link--active a {
+    color: #fff;
+    background: #F96666;
+}
+
+.pagination__link--disabled a {
+    color: #F96666;
+    border: 1px solid #F96666;
+}
